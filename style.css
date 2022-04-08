@@ -1,0 +1,226 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(192, 219, 219);
+
+}
+
+.container{
+margin: 50px;
+padding: 50px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+}
+
+
+.main_container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    font-size: large;
+    justify-content: center;
+
+}
+.main_container h1{
+    width: 10 em;
+   
+}
+.main_container img{
+    margin-left: 50px;  
+}
+
+.middle_container{
+    margin-top: 2px;
+    
+}
+.middle_container h2{
+    text-align: left;
+    font-size: large
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.section img{
+    width: 200px;
+      object-fit: cover;
+      align-self: center;
+}
+
+.section p{
+margin-left: 8px;
+font-size: medium;
+text-align: justify;
+
+}
+.paragraph{
+    /* text-align: center; */
+    justify-content: center;
+}
+
+table, th, td{
+    text-align: center;
+      width: 1200px;
+       border-collapse: collapse;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    
+     th,td{
+      border:0.5px  solid black;
+    padding-left: 20px;
+    }
+    .columns { 
+    width: 500px;
+    margin-bottom: 40px;
+    }
+    .cpt{
+        margin: bottom 20px;
+       
+        font-size: x-large;
+    }
+
+
+
+.last_container{
+    
+    font-size: large;
+    text-align: center;
+}
+
+
+.places h5{
+   
+    margin-bottom: 20px;
+    font-size: larger;
+    font-style: normal; 
+    text-align: center; 
+   
+      
+ }
+.sixth{
+    display: flex;
+  
+}
+.sixth p{
+
+  margin-left: 10px;
+  font-size: medium;
+ 
+
+}
+
+.city{
+    margin-left: 20px; 
+   
+}
+
+.city h6{
+    margin-bottom: 20px;
+    font-size: medium;
+    font-style: normal;  
+    text-align: center;
+       
+}
+.hall{
+    display: flex;
+    object-position: 10px;
+    font-size: medium;
+    
+}
+.hall p{
+  
+    margin-left: 30px;
+}
+
+.castle{
+    
+    font-size: larger;
+    font-style: normal;  
+    margin-left: 15px;
+
+   
+    }
+    
+.good{
+    display: flex;
+    font-size: medium;
+}
+.good p{
+    margin-left: 10px;
+}
+.castle h6{
+    margin-bottom: 20px;
+    font-size: medium;
+    font-style: normal; 
+    text-align: center;  
+       
+}
+
+
+
+
+.Secondpara{
+ 
+     display: flex;  
+    font-size: medium;
+    
+}
+
+.Secondpara img{
+  width: 150px;
+  height: 180x;
+ object-fit: cover;
+   
+}
+
+
+
+.footer{
+    overflow: auto;
+    zoom: 1;
+    padding:1em;
+
+    background-color: blanchedalmond;
+  
+} 
+
+@media screen and (max-width: 700px){
+    .Secondpara{
+        flex-direction: column;   
+    }
+
+    .sixth{
+        display: flex;
+        flex-direction: row-reverse;
+       
+
+    }
+    .good{
+        display: flex;
+        flex-direction: row-reverse;
+       
+    }
+    .section{
+        flex-direction: column;
+    }
+    body{
+        background-color: rgb(197, 150, 92);
+
+    }
+    table, th, td{
+        width: 300px;;
+    }
+    .main_container{
+        flex-direction: column;
+    }
+}
+
+
